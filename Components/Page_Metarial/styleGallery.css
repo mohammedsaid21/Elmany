@@ -1,0 +1,30 @@
+
+.li {
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #eee;
+  min-width: 105px;
+  text-align: center;
+  transition: 0.5s;
+}
+.activeLi {
+  background-color: #1e3c9b;
+  color: white;
+}
+
+.li:hover {
+  background-color: #1e3c9b;
+  color: white;
+}
+.opacitya {
+  animation: opacityA 1s 1 linear;
+}
+@keyframes opacityA {
+  0% {
+    opacity: .0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
